@@ -1,0 +1,30 @@
+@use "../utils" as u;
+@use "../colors" as c;
+@use "../styles" as s;
+
+.TopFooter {
+    display: flex;
+    justify-content: space-between;
+    padding-left: s.$outerPadding;
+    padding-right: s.$outerPadding;
+    background-color: #9A9B9C;
+    .footer_menu {
+        text-align: left;
+        h2{
+            color: white;
+            font-size: medium;
+        }
+        ul{
+            padding: 0;
+                    li {
+            list-style-type: none;
+            a {
+                color: white;
+                text-decoration: none;
+                font-size: small;
+            }
+        }
+        }
+
+    }
+}

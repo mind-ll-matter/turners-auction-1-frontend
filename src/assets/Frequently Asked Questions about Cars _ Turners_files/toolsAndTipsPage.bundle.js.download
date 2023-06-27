@@ -1,0 +1,1 @@
+var toolsAndTipsPage={init:function(){$(".accordion-module .accordion-title").click(toolsAndTipsPage.eventHandlers.itemClick)},eventHandlers:{itemClick:function(){$(this).parents(".accordion-item").toggleClass("expand-accordion-item");$("img.lazy").lazyload({event:"click"})}},serverRequests:{},helpers:{}}

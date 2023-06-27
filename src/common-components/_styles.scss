@@ -1,0 +1,5 @@
+@use "utils" as u;
+
+$outerPadding: u.toRem(120);
+$blueHeaderBtnPadVert: u.toRem(14);
+$blueHeaderBtnPadSides: u.toRem(7);

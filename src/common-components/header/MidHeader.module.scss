@@ -1,0 +1,43 @@
+@use "../utils" as u;
+@use "../colors" as c;
+@use "../styles" as s;
+
+
+.MidHeader{
+    display: flex;
+    align-items: center;
+    padding-left: s.$outerPadding;
+    padding-right: s.$outerPadding;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    
+    .leftSide {
+        flex: 1;
+        display: flex;
+        justify-content: left;
+
+        img{
+            width: 10rem;
+        }
+    }
+
+    .rightSide {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap:2rem;
+
+        .aParent {
+            a{
+                text-decoration: none;
+                color: black;
+                font-size: medium;
+                &:hover {
+                    // background-color: transparent;
+                    color: red;
+                } 
+            }
+
+        }
+    }
+}

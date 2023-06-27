@@ -1,0 +1,33 @@
+@use "../utils" as u;
+@use "../colors" as c;
+@use "../styles" as s;
+
+.BottomFooter{
+    background-color: #363636;
+    display: flex;
+    justify-content: space-between;
+    padding-left:s.$outerPadding ;
+    padding-right: s.$outerPadding;
+    .copyright {
+        color: white;
+        font-size: small;
+    }
+    button{
+    background-color: transparent;
+    border-radius: 0;
+    border-color: lightgray;
+    border-top: none;
+    border-bottom: none;
+    border-left:none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+        &.lastButton{
+            border-right: none;
+        }
+        a {
+            color: white;
+            font-size: medium;
+            text-decoration: none;
+        }
+    }
+}

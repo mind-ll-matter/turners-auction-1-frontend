@@ -1,0 +1,40 @@
+@use "../utils" as u;
+@use "../colors" as c;
+@use "../styles" as s;
+
+.BottomHeader {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0076BE;
+    padding-left: s.$outerPadding;
+    padding-right: s.$outerPadding;
+
+    .leftSide {
+        display: flex;
+        justify-content: left;
+    }
+    .rightSide {
+        display: flex;
+        justify-content: right;
+    }
+    button {
+        padding-left: calc(s.$blueHeaderBtnPadSides + u.toRem(10));
+        padding-right: s.$blueHeaderBtnPadSides;
+        padding-top: s.$blueHeaderBtnPadVert;
+        padding-bottom: s.$blueHeaderBtnPadVert;
+        color: white;
+        font-weight: bold;
+        background-color: transparent;
+        border: none;
+        display: flex;
+        align-items: center;
+        ExpandMoreIcon {
+            padding: 0;
+        }
+        &:hover {
+            background-color: #015183;
+
+        }
+    }
+
+}

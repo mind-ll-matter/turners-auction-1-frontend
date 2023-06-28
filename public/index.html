@@ -15,15 +15,6 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
     <title>React App</title>
 
   </head>
@@ -31,21 +22,14 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
 
-    <!-- SEARCH BAR HTML JS EMBED -->
-    <script type="text/javascript" 
-      id="bcs_js_snippet"
-      src="https://ui.customsearch.ai/api/ux/rendering-js?customConfig=2416e8fc-70bc-42f1-b745-373598ff5ecd&market=en-US&version=latest&q=">
-    </script>
-
     <!-- CHATBOT HTML EMBED -->
     <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
     <df-messenger
       chat-icon="https:&#x2F;&#x2F;cdn-icons-png.flaticon.com&#x2F;512&#x2F;4712&#x2F;4712038.png"
       intent="WELCOME"
       chat-title="Tina from Turners"
-      agent-id="7a4e3235-1813-4b72-87a8-659e91821d45"
+      agent-id="%REACT_APP_AGENT_ID%"
       language-code="en"
-
       style= "--df-messenger-button-titlebar-color: #0076BE;"
     ></df-messenger>
 

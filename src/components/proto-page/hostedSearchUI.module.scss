@@ -1,0 +1,9 @@
+@use "../../common-components/_utils" as u;
+@use "../../common-components/_colors" as c;
+@use "../../common-components/_styles" as s;
+
+.HostedSearchUI {
+    min-height: 50vh;
+    padding-left: calc(s.$outerPadding / 1.6);
+    padding-right: calc(s.$outerPadding / 1.6);
+}

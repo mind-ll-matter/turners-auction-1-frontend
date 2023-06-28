@@ -1,3 +1,5 @@
+// ALTERNATIVE RESOURCE: https://learn.microsoft.com/en-us/azure/cognitive-services/bing-custom-search/call-endpoint-nodejs
+
 import React from 'react'
 // import useScript from '../../hooks/useScript'
 import useScript, { ScriptStatus } from '@charlietango/use-script'

@@ -184,8 +184,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-AJ Evile - [@LinkedIn_handle](https://www.linkedin.com/in/ajevile/)
-<a href="ajevile.com">ajevile.com</a>
+Connect with me on LinkedIn - [@ajevile](https://www.linkedin.com/in/ajevile/)
+
+[@ajevile](ajevile.com)
 
 Project Link: [https://github.com/mind-ll-matter/turners-auction-1-frontend](https://github.com/mind-ll-matter/turners-auction-1-frontend)
 

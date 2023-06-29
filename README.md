@@ -75,7 +75,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-My project used reactJS,DialogFlow, Bing Custom Search, Bing Custom Vision, CSS, and JavaScript to build a web home page with chatbot, custom search and car image recognize to search similar cars in database. Users can use the chatbot to ask any questions about the Turners auction. In addition, pressing the Register and SignIn button in the navbar will be navagate to correspond web page. Below the search bar section is a listing section that displays cars in four columns. This website also provide the responsive.
+My project used ReactJS,DialogFlow, Bing Custom Search, CSS, and JavaScript to build a web home page with chatbot and custom search to search things on the turners website. Users can use the chatbot to ask any questions about the Turners auction.
+
 <div align="center">
   <img src="./project-images/search.jpg" alt="search"/>
   <br/>

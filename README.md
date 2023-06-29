@@ -77,9 +77,9 @@
 
 My project used reactJS,DialogFlow, Bing Custom Search, Bing Custom Vision, CSS, and JavaScript to build a web home page with chatbot, custom search and car image recognize to search similar cars in database. Users can use the chatbot to ask any questions about the Turners auction. In addition, pressing the Register and SignIn button in the navbar will be navagate to correspond web page. Below the search bar section is a listing section that displays cars in four columns. This website also provide the responsive.
 <div align="center">
-  <img src="./project-images/search.jpg" alt="search" width="600" height="400">
+  <img src="./project-images/search.jpg" alt="search"/>
   <br/>
-  <img src="./project-images/chatbot.jpg" alt="chatbot" width="600" height="400">
+  <img src="./project-images/chatbot.jpg" alt="chatbot"/>
 <!--   <img src="project-images/chatbot.png" alt="screenshot2" width="250" height="400"> -->
   <p align="center">
  </div>
